@@ -1,0 +1,119 @@
+data nama tabel dan entitasnya
+
+
+1. Tabel mahasiswa
+	nim
+	nama
+	password
+	created_at
+	updated_at
+
+2. Tabel nilai
+	id_nilai
+	id_jadwal
+	nim
+	jenis_sertifikasi
+	nilai
+	pengambilan_ke
+	status
+	created_at
+	updated_at
+	id_sertifikat
+
+3. Tabel bukti
+	id_bukti
+	nim
+	bukti
+	jenis_sertifikasi
+	pengambilan_ke
+	created_at
+	updated_at
+	status
+
+4. Tabel kelas
+	id_kelas
+	nama_kelas
+	status
+	created_at
+	updated_at
+
+5. Tabel pengajar
+	nip
+	nama
+	mta
+	mos
+	scm
+	mtcna
+	status
+	created_at
+	updated_at
+
+6. Tabel jadwal
+	id_jadwal
+	id_dosen
+	jenis_sertifikasi
+	id_kelas_1
+	id_kelas_2
+	id_kelas_3
+	tanggal_1
+	tanggal_2
+	tanggal_3
+	jam_awal_1
+	jam_awal_2
+	jam_awal_3
+	jam_akhir_1
+	jam_akhir_2
+	jam_akhir_3
+	created_at
+	updated_at
+	periode
+	semester
+	status
+
+	
+7. Tabel peserta_ujian
+	nim
+	id_jadwal
+	created_at
+	updated_at
+
+8. Tabel status_mahasiswa
+	nim
+	status_mta
+	status_mos
+	status_mtcna
+	status_scm
+	created_at
+	updated_at
+
+9. Tabel data_pengambilan
+	nim
+	mta
+	mos
+	mtcna
+	scm
+	created_at
+	updated_at
+
+10. tabel admin
+	admin_id
+	nama
+	password
+	created_at
+	updated_at
+	otoritas
+	status
+
+11. tabel data_sertifikat
+	id_sertifikat
+	nim
+	jenis_sertifikasi
+	created_at
+	updated_at
+
+DAFTAR KEPANJANGAN
+
+Microsoft Technology Associate (MTA)
+Microsoft Office Specialist (MOS)
+Security Compliance Manager (SCM)
+MikroTik Certified Network Associate (MTCNA)

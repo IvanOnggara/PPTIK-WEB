@@ -1,0 +1,59 @@
+data nama tabel dan entitasnya
+
+
+1. Tabel mahasiswa
+	nim
+	nama
+	password
+
+2. Tabel nilai
+	id_nilai
+	nim
+	jenis_sertifikasi
+	nilai
+	pengambilan_ke
+	status
+
+3. Tabel bukti
+	id_bukti
+	nim
+	bukti
+	jenis_sertifikasi
+	pengambilan_ke
+
+4. Tabel kelas
+	id_kelas
+	nama_kelas
+	status
+
+5. Tabel pengajar
+	nip
+	nama
+	status
+
+6. Tabel jadwal
+	id_jadwal
+	id_kelas
+	id_dosen
+	jenis_sertifikasi
+	deskripsi_tanggal_waktu
+	tanggal_awal
+	tanggal_akhir
+
+7. Tabel peserta_ujian
+	nim
+	id_jadwal
+
+8. Tabel status_mahasiswa
+	nim
+	status_mta
+	status_mos
+	status_mtcna
+	status_scm
+
+9. Tabel data_pengambilan
+	nim
+	mta
+	mos
+	mtcna
+	scm
